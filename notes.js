@@ -16,11 +16,12 @@
 // console.log('result ', result)
 
 
-let arrex = [3, 5, 7, 9];
-function myfunction(paramArr){
-    console.log(paramArr)
+// let arrex = [3, 5, 7, 9];
+// function myfunction(paramArr){
+//     console.log(paramArr)
 
-    for (let i = 0; i<paramArr.length; i++){
+//     for (let i = 0; i<paramArr.length; i++){
         
-    }
-}
+//     }
+// }
+
