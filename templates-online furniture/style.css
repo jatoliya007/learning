@@ -1,0 +1,189 @@
+.body {
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+}
+
+.header {
+    height: 70px;
+    display: flex;
+    background-color: #dfe7dd;
+}
+
+.navbar {
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+
+}
+
+.nav-container {
+    /* margin-left: 50px; */
+}
+
+search-container {}
+
+.search-bar {
+    border: 1px solid black;
+    margin-left: 50px;
+
+}
+
+.search-bar input {
+    width: 180px;
+    height: 25px;
+    border: none;
+
+}
+
+.icon-image {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    vertical-align: middle;
+}
+
+.middle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+}
+
+.logo {
+    margin-left: 70px;
+    margin-right: 70px
+}
+
+.logo h2 {
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.4em;
+    line-height: 20px;
+}
+
+.left-text {
+    display: flex;
+    grid-gap: 40px;
+    position: relative;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    line-height: 1;
+}
+
+.right-text {
+    display: flex;
+    grid-gap: 40px;
+    position: relative;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    line-height: 1;
+}
+
+.icons-image {
+    margin-right: 50px;
+    display: flex;
+    grid-gap: 40px;
+}
+
+.main {
+    width: 100%;
+
+}
+
+.hero-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #dfe7dd;
+}
+
+.max-width {
+    max-width: 1032px;
+    margin-left: 190px;
+
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    position: relative;
+}
+
+.info-image {
+    width: 2px;
+    height: 52px;
+}
+
+.info-text {
+    color: #696666;
+    font-size: 12px;
+    font-family: jost;
+    font-weight: 600;
+    line-height: 18px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading h1 {
+    font-size: 36px;
+    font-family: jost;
+    font-weight: 500;
+    line-height: 47px;
+    letter-spacing: 0.16em;
+
+}
+
+.price-info {
+    margin-bottom: 15px;
+}
+
+.from {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    font-style: normal;
+    letter-spacing: 0.1em;
+    margin-right: 4px;
+}
+
+.dollar {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 32px;
+    font-style: normal;
+}
+
+.explore-btn button {
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 45px;
+    padding-left: 45px;
+    border-radius: 0px;
+    background-color: #dfe7dd;
+}
+
+.chair-image {
+    position: relative;
+}
