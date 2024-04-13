@@ -1,22 +1,1105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Apple app</title>
 </head>
+
 <body>
 
-<div class="global-div">
+    <div class="global-header">
+        <nav>
+            <div class="header-content">
 
-    <nav></nav>
+                <div></div>
+                <ul class="header-list">
 
-    <div></div>
+                    <li class="apple-logo">
+                        <a class="anchore-on-apple">
+                            <span class="apple-image">
+                                <svg height="44" viewBox="0 0 14 44" width="14" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="m13.0729 17.6825a3.61 3.61 0 0 0 -1.7248 3.0365 3.5132 3.5132 0 0 0 2.1379 3.2223 8.394 8.394 0 0 1 -1.0948 2.2618c-.6816.9812-1.3943 1.9623-2.4787 1.9623s-1.3633-.63-2.613-.63c-1.2187 0-1.6525.6507-2.644.6507s-1.6834-.9089-2.4787-2.0243a9.7842 9.7842 0 0 1 -1.6628-5.2776c0-3.0984 2.014-4.7405 3.9969-4.7405 1.0535 0 1.9314.6919 2.5924.6919.63 0 1.6112-.7333 2.8092-.7333a3.7579 3.7579 0 0 1 3.1604 1.5802zm-3.7284-2.8918a3.5615 3.5615 0 0 0 .8469-2.22 1.5353 1.5353 0 0 0 -.031-.32 3.5686 3.5686 0 0 0 -2.3445 1.2084 3.4629 3.4629 0 0 0 -.8779 2.1585 1.419 1.419 0 0 0 .031.2892 1.19 1.19 0 0 0 .2169.0207 3.0935 3.0935 0 0 0 2.1586-1.1368z">
+                                    </path>
+                                </svg>
+                            </span>
+                        </a>
+                    </li>
+
+                    <li class="nav-all-menu-list">
+                        <div class="nav-buttons">
+
+                            <div class="nav-hover" id="hover-store" onmouseover="navHoverContent('store-content')">
+
+                                <ul class="ul-on-top-nav-button" id="ul-on-store">
+                                    <li>
+                                        <a href="/in/shop/goto/store" class="anchor-top-nav-button" id="anchor-on-store">
+                                            <span class="store-text">
+                                                <span>Store</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <button>
+                                            <span></span>
+                                            <span></span>
+                                        </button>
+                                    </li>
+                                </ul>
+
+                                <div class="glabalnav-floyout globalnav-submenu">
+                                    <div class="globalnav-flyout-scroll-container">
 
 
-</div>
+                                <div id="store-content" class="sub-menu">
+                                    <div class="menu-one">
+                                        <h2>Shop</h2>
+                                        <ul>
+                                            <li>
+                                                <a href="">Shop the Latest</a>
+                                            </li>
+                                            <li><a href="">Mac</a></li>
+                                            <li><a href="">ipad</a></li>
+                                            <li><a href="">iphone</a></li>
+                                            <li><a href="">Apple watch</a></li>
+                                            <li><a href="">Accessories</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="menu-two">
+                                        <h2>Quick Links</h2>
+                                        <ul>
+                                            <li><a href="">Find a store</a></li>
+                                            <li><a href="">Order status</a></li>
+                                            <li><a href="">Ways to buy</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="menu-three">
+                                        <h2>Shop Special Stores</h2>
+                                        <ul>
+                                            <li><a href="">Education</a></li>
+                                            <li><a href="">Business</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+
+                            </div>
+
+                            <div class="nav-hover" id="hover-mac" onmouseover="navHoverContent('mac-content')">
+                                <ul>
+                                    <li>
+                                        <a href="" class="anchor-top-nav-button" id="anchor-on-mac">
+                                            <span>
+                                                <span>Mac</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <button>
+                                            <span></span>
+                                            <span></span>
+                                        </button>
+                                    </li>
+                                </ul>
+
+                                <div id="mac-content" class="sub-menu">
+
+                                    <div class="menu-one">
+                                        <h2>Explore All Mac</h2>
+                                        <ul class="">
+                                            <li><a href="">MacBook Air</a></li>
+                                            <li><a href="">MacBook Pro</a></li>
+                                            <li><a href="">iMac</a></li>
+                                            <li><a href="">Mac mini</a></li>
+                                            <li><a href="">Mac Studio</a></li>
+                                            <li><a href="">Mac Pro</a></li>
+                                            <li><a href="">Displays</a></li>
+                                            <li><a href="">Compare Mac</a></li>
+                                            <li><a href="">Mac Does That</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="menu-two">
+                                        <h2>Shop Mac</h2>
+                                        <ul>
+                                            <li><a href="">Shop Mac</a></li>
+                                            <li><a href="">Mac Accessories</a></li>
+                                            <li><a href="">Ways to Buy</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="menu-three">
+                                        <h2>More from Mac</h2>
+                                        <ul>
+                                            <li><a href="">Mac Support</a></li>
+                                            <li><a href="">AppleCare+ for Mac</a></li>
+                                            <li><a href="">MacOS Sonoma</a></li>
+                                            <li><a href="">Apps by Apple</a></li>
+                                            <li><a href="">Continuity</a></li>
+                                            <li><a href="">iCloud+</a></li>
+                                            <li><a href="">Mac for Business</a></li>
+                                            <li><a href="">Education</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="nav-hover" id="hover-ipad" onmouseover="navHoverContent('ipad-content')">
+                                <ul>
+                                    <li>
+                                        <a href="" class="anchor-top-nav-button" id="anchor-on-ipad">
+                                            <span>
+                                                <span>iPad</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <button>
+                                            <span></span>
+                                            <span></span>
+                                        </button>
+                                    </li>
+                                </ul>
+
+                                <div id="ipad-content" class="sub-menu">
+
+                                    <div class="menu-one">
+                                        <h2>Explore iPad</h2>
+                                        <ul>
+                                            <li><a href="">Explore All iPad</a></li>
+                                            <li><a href="">iPad Air</a></li>
+                                            <li><a href="">iPad Pro</a></li>
+                                            <li><a href="">iPad</a></li>
+                                            <li><a href="">iPad mini</a></li>
+                                            <li><a href="">Apple pencile</a></li>
+                                            <li><a href="">Keyboard</a></li>
+
+                                            <span class="ipad-light-color-one">
+                                                <li><a href="">Compare iPad</a></li>
+                                                <li><a href="">Why iPad</a></li>
+                                            </span>
+                                        </ul>
+                                    </div>
+
+                                    <div class="menu-two">
+                                        <h2>Shop iPad</h2>
+                                        <ul>
+                                            <li><a href="">Shop iPad</a></li>
+                                            <li><a href="">iPad Accessories</a></li>
+                                            <li><a href="">Ways to Buy</a></li>
+                                        </ul>
+
+                                    </div>
+
+                                    <div class="menu-three">
+                                        <h2>More from iPad</h2>
+                                        <ul>
+                                            <li><a href="">iPad Support</a></li>
+                                            <li><a href="">AppleCare+ for iPad</a></li>
+                                            <li><a href="">iPadOS 17</a></li>
+                                            <li><a href="">Apps by Apple</a></li>
+                                            <li><a href="">iCloud+</a></li>
+                                            <li><a href="">Education</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="nav-hover" id="hover-iphone" onmouseover="navHoverContent('iphone-content')">
+                                <ul>
+                                    <li>
+                                        <a href="" class="anchor-top-nav-button" id="anchor-on-iphone">
+                                            <span>
+                                                <span>iPhone</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <button>
+                                            <span></span>
+                                            <span></span>
+                                        </button>
+                                    </li>
+                                </ul>
+
+                                <div id="iphone-content" class="sub-menu">
+
+                                    <div class="menu-one">
+                                        <h2>Explore iPhone</h2>
+                                        <ul>
+                                            <li><a href="">Explore All iPhone</a></li>
+                                            <li><a href="">iPhone 15 Pro</a></li>
+                                            <li><a href="">iPhone 15</a></li>
+                                            <li><a href="">iPhone 14</a></li>
+                                            <li><a href="">iPhone 13</a></li>
+                                            <li><a href="">iPhone SE</a></li>
+                                            <span>
+                                                <li><a href="">Compare iPhone</a></li>
+                                                <li><a href="">Switch from Android</a></li>
+                                            </span>
+                                        </ul>
+                                    </div>
+
+                                    <div class="menu-two">
+                                        <h2>Shop iPhone</h2>
+                                        <ul>
+                                            <li><a href="">Shop iPhone</a></li>
+                                            <li><a href="">iPhone Accessories</a></li>
+                                            <li><a href="">Apple Trade In</a></li>
+                                            <li><a href="">Ways to Buy</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="menu-three">
+                                        <h2>More from iPhone</h2>
+                                        <ul>
+                                            <li><a href="">iPhone Support</a></li>
+                                            <li><a href="">Apple care+ iPhone</a></li>
+                                            <li><a href="">iOS 17</a></li>
+                                            <li><a href="">Apps by Apple</a></li>
+                                            <li><a href="">iPhone Privacy</a></li>
+                                            <li><a href="">iCloud+</a></li>
+                                            <li><a href="">Wallet</a></li>
+                                            <li><a href="">Siri</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="nav-hover" id="hover-watch" onmouseover="navHoverContent('watch-content')">
+                                <ul>
+                                    <li>
+                                        <a href="" class="anchor-top-nav-button" id="anchor-on-watch">
+                                            <span>
+                                                <span>Watch</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <button>
+                                            <span></span>
+                                            <span></span>
+                                        </button>
+                                    </li>
+                                </ul>
+
+                                <div id="watch-content" class="sub-menu">
+                                    <div class="menu-one">
+                                        <h2>Explore Watch</h2>
+                                        <ul>
+                                            <li><a href="">Explore All Apple Watch</a></li>
+                                            <li><a href="">Apple Watch Series 9</a></li>
+                                            <li><a href="">Apple Watch Ultra 2</a></li>
+                                            <li><a href="">Apple Watch SE</a></li>
+                                            <li><a href="">Apple Watch Nike</a></li>
+                                            <span>
+                                                <li><a href="">Compare Watch</a></li>
+                                                <li><a href="">Why Apple Watch</a></li>
+                                            </span>
+                                        </ul>
+                                    </div>
+
+                                    <div class="menu-two">
+                                        <h2>Shop Watch</h2>
+                                        <ul>
+                                            <li><a href="">Shop Appple Watch</a></li>
+                                            <li><a href="">Apple Watch Straps</a></li>
+                                            <li><a href="">Apple Watch Accessories</a></li>
+                                            <li><a href="">Ways to Buy</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="menu-three">
+                                        <h2>More from Watch</h2>
+                                        <ul>
+                                            <li><a href="">Apple Watch Support</a></li>
+                                            <li><a href="">AppleCare+</a></li>
+                                            <li><a href="">WatchOS 10</a></li>
+                                            <li><a href="">Apps by Apple</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="nav-hover" id="hover-airpods" onmouseover="navHoverContent('airpods-content')">
+                                <ul>
+                                    <li>
+                                        <a href="" class="anchor-top-nav-button" id="anchor-on-airpods">
+                                            <span>
+                                                <span>AirPods</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <button>
+                                            <span></span>
+                                            <span></span>
+                                        </button>
+                                    </li>
+                                </ul>
+
+                                <div id="airpods-content" class="sub-menu">
+
+                                    <div class="menu-one">
+                                        <h2>Explore AirPods</h2>
+                                        <ul>
+                                            <li><a href="">Explore All Airpods</a></li>
+                                            <li><a href="">AirPods Pro 2nd generation</a></li>
+                                            <li><a href="">AirPods 2nd generation</a></li>
+                                            <li><a href="">AirPods 3rd generation</a></li>
+                                            <li><a href="">AirPods Max</a></li>
+                                            <span>
+                                                <li><a href="">Compare AirPods</a></li>
+                                            </span>
+                                        </ul>
+                                    </div>
+
+                                    <div class="menu-two">
+                                        <h2>Shop AirPods</h2>
+                                        <ul>
+                                            <li><a href="">Shop AirPods</a></li>
+                                            <li><a href="">Shop Accessories</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="menu-three">
+                                        <h2>more from AirPods</h2>
+                                        <ul>
+                                            <li><a href="">AirPods</a></li>
+                                            <li><a href="">AppleCare+ for Headphones</a></li>
+                                            <li><a href="">Apple Music</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="nav-hover" id="hover-tv-home" onmouseover="navHoverContent('tv-content')">
+                                <ul>
+                                    <li>
+                                        <a href="" class="anchor-top-nav-button" id="anchor-on-tv">
+                                            <span>
+                                                <span>TV & Home</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <button>
+                                            <span></span>
+                                            <span></span>
+                                        </button>
+                                    </li>
+                                </ul>
+
+                                <div id="tv-content" class="sub-menu">
+
+                                    <div class="menu-one">
+                                        <h2>Explore TV & Home</h2>
+                                        <ul>
+                                            <li><a href="">Explore TV & Home</a></li>
+                                            <li><a href="">Apple TV 4k</a></li>
+                                            <li><a href="">HomePod</a></li>
+                                            <li><a href="">HomePod Mini</a></li>
+                                            <li><a href=""></a></li>
+                                        </ul>
+
+                                    </div>
+
+                                    <div class="menu-two">
+                                        <h2>Shop TV & Home</h2>
+                                        <ul>
+                                            <li><a href="">Shop Apple TV 4k</a></li>
+                                            <li><a href="">Shop HomePod</a></li>
+                                            <li><a href="">Shop HomePod Mini</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="menu-three">
+                                        <h2>More from TV & Home</h2>
+                                        <ul>
+                                            <li><a href="">Apple TV support</a></li>
+                                            <li><a href="">HomePod support</a></li>
+                                            <li><a href="">AppleCare+</a></li>
+                                            <li><a href="">Apple TV App</a></li>
+                                            <li><a href="">Apple TV +</a></li>
+                                            <li><a href="">Home app</a></li>
+                                            <li><a href="">Apple Music</a></li>
+                                            <li><a href="">Siri</a></li>
+                                            <li><a href="">Airplay</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="nav-hover" id="hover-entertainment" onmouseover="navHoverContent('entertainment-content')">
+                                <ul>
+                                    <li>
+                                        <a href="" class="anchor-top-nav-button" id="anchor-on-entertainment">
+                                            <span>
+                                                <span>Entertainment</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <button>
+                                            <span></span>
+                                            <span></span>
+                                        </button>
+                                    </li>
+                                </ul>
+
+                                <div id="entertainment-content" class="sub-menu">
+
+                                    <div class="menu-one">
+                                        <h2>Explore Entertainment</h2>
+                                        <ul>
+                                            <li><a href="">Explore Entertainment</a></li>
+                                            <li><a href="">Apple One</a></li>
+                                            <li><a href="">Apple TV +</a></li>
+                                            <li><a href="">Apple Music</a></li>
+                                            <li><a href="">Apple Arcade</a></li>
+                                            <li><a href="">Apple PodCasts</a></li>
+                                            <li><a href="">Apple Books</a></li>
+                                            <li><a href="">App Store</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="menu-two">
+                                        <h2>Support</h2>
+                                        <ul>
+                                            <li><a href="">Apple TV+ Support</a></li>
+                                            <li><a href="">Apple Music Support</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="nav-hover" id="hover-accessories" onmouseover="navHoverContent('accessories-content')">
+                                <ul>
+                                    <li>
+                                        <a href="" class="anchor-top-nav-button" id="anchor-on-accessories">
+                                            <span>
+                                                <span>Accessories</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <button>
+                                            <span></span>
+                                            <span></span>
+                                        </button>
+                                    </li>
+                                </ul>
+
+                                <div id="accessories-content" class="sub-menu">
+
+                                    <div class="accessories-menu-one">
+                                        <h2>Shop Accessories</h2>
+                                        <ul>
+                                            <li><a href="">Shop All Accessories</a></li>
+                                            <li><a href="">Mac</a></li>
+                                            <li><a href="">iPad</a></li>
+                                            <li><a href="">iPhone</a></li>
+                                            <li><a href="">Apple Watch</a></li>
+                                            <li><a href="">AirPods</a></li>
+                                            <li><a href="">TV & Home</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="accessories-menu-two">
+                                        <h2>Explore Accessories</h2>
+                                        <ul>
+                                            <li><a href="">Made by Apple</a></li>
+                                            <li><a href="">AirTag</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="nav-hover" id="hover-support" onmouseover="navHoverContent('support-content')">
+                                <ul>
+                                    <li>
+                                        <a href="" class="anchor-top-nav-button" id="anchor-on-support">
+                                            <span>
+                                                <span>Support</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <button>
+                                            <span></span>
+                                            <span></span>
+                                        </button>
+                                    </li>
+                                </ul>
+
+                                <div id="support-content" class="sub-menu">
+
+                                    <div class="menu-one">
+                                        <h2>Explore Support</h2>
+                                        <ul>
+                                            <li><a href="">iPhone</a></li>
+                                            <li><a href="">Mac</a></li>
+                                            <li><a href="">iPad</a></li>
+                                            <li><a href="">Watch</a></li>
+                                            <li><a href="">AirPods</a></li>
+                                            <li><a href="">Music</a></li>
+                                            <li><a href="">TV</a></li>
+                                            <span>
+                                                <li><a href="">Explore Support</a></li>
+                                            </span>
+                                        </ul>
+                                    </div>
+
+                                    <div class="menu-two">
+                                        <h2>Get Help</h2>
+                                        <ul>
+                                            <li><a href="">Community</a></li>
+                                            <li><a href="">Check Coverage</a></li>
+                                            <li><a href="">Repair</a></li>
+                                            <li><a href="">Contact Us</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="menu-three">
+                                        <h2>Helpful Topics</h2>
+                                        <ul>
+                                            <li><a href="">Get AppleCare+</a></li>
+                                            <li><a href="">Apple ID & Password</a></li>
+                                            <li><a href="">Billing & Subscriptions</a></li>
+                                            <li><a href="">Find My</a></li>
+                                            <li><a href="">Accessibility</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </li>
+
+                    <li class="search-menu">
+                        <a href="#">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15px" height="44px" viewBox="0 0 15 44">
+                                    <path
+                                        d="M14.298,27.202l-3.87-3.87c0.701-0.929,1.122-2.081,1.122-3.332c0-3.06-2.489-5.55-5.55-5.55c-3.06,0-5.55,2.49-5.55,5.55 c0,3.061,2.49,5.55,5.55,5.55c1.251,0,2.403-0.421,3.332-1.122l3.87,3.87c0.151,0.151,0.35,0.228,0.548,0.228 s0.396-0.076,0.548-0.228C14.601,27.995,14.601,27.505,14.298,27.202z M1.55,20c0-2.454,1.997-4.45,4.45-4.45 c2.454,0,4.45,1.997,4.45,4.45S8.454,24.45,6,24.45C3.546,24.45,1.55,22.454,1.55,20z">
+                                    </path>
+                                </svg>
+                            </span>
+                        </a>
+                    </li>
+
+                    <li class="apple-bag-menu">
+                        <a href="#">
+                            <span>
+                                <svg height="44" viewBox="0 0 14 44" width="14" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="m11.3535 16.0283h-1.0205a3.4229 3.4229 0 0 0 -3.333-2.9648 3.4229 3.4229 0 0 0 -3.333 2.9648h-1.02a2.1184 2.1184 0 0 0 -2.117 2.1162v7.7155a2.1186 2.1186 0 0 0 2.1162 2.1167h8.707a2.1186 2.1186 0 0 0 2.1168-2.1167v-7.7155a2.1184 2.1184 0 0 0 -2.1165-2.1162zm-4.3535-1.8652a2.3169 2.3169 0 0 1 2.2222 1.8652h-4.4444a2.3169 2.3169 0 0 1 2.2222-1.8652zm5.37 11.6969a1.0182 1.0182 0 0 1 -1.0166 1.0171h-8.7069a1.0182 1.0182 0 0 1 -1.0165-1.0171v-7.7155a1.0178 1.0178 0 0 1 1.0166-1.0166h8.707a1.0178 1.0178 0 0 1 1.0164 1.0166z">
+                                    </path>
+                                </svg>
+                            </span>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </nav>
+    </div>
+
+
+
+    <!-- <div class="global-div"> 
+    <div style="display: block;" onmouseleave="navContent()">
+        <div class="navbar">
+            <div class="apple-logo">
+                <a href="apple.in">
+                    <svg height="48" viewBox="0 0 17 48" width="17" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="m15.5752 19.0792a4.2055 4.2055 0 0 0 -2.01 3.5376 4.0931 4.0931 0 0 0 2.4908 3.7542 9.7779 9.7779 0 0 1 -1.2755 2.6351c-.7941 1.1431-1.6244 2.2862-2.8878 2.2862s-1.5883-.734-3.0443-.734c-1.42 0-1.9252.7581-3.08.7581s-1.9611-1.0589-2.8876-2.3584a11.3987 11.3987 0 0 1 -1.9373-6.1487c0-3.61 2.3464-5.523 4.6566-5.523 1.2274 0 2.25.8062 3.02.8062.734 0 1.8771-.8543 3.2729-.8543a4.3778 4.3778 0 0 1 3.6822 1.841zm-6.8586-2.0456a1.3865 1.3865 0 0 1 -.2527-.024 1.6557 1.6557 0 0 1 -.0361-.337 4.0341 4.0341 0 0 1 1.0228-2.5148 4.1571 4.1571 0 0 1 2.7314-1.4078 1.7815 1.7815 0 0 1 .0361.373 4.1487 4.1487 0 0 1 -.9867 2.587 3.6039 3.6039 0 0 1 -2.5148 1.3236z">
+                        </path>
+                    </svg>
+                </a>
+            </div>
+
+
+            <div class="nav-button" onmouseleave="navContent()">
+
+                <div class="top-dropdown-button">
+                    <a href="#"><button id="store" onmouseover="navContent('store-menu')" class="dropbtn">Store</button></a>
+                </div>
+
+                <div class="top-dropdown-button">
+                    <a href="#"><button id="mac" onmouseover="navContent('mac-menu')" class="dropbtn">Mac</button></a>
+                </div>
+
+                <div class="top-dropdown-button">
+                    <a><button id="ipad" onmouseover="navContent('ipad-menu')" class="dropbtn">ipad</button></a>
+                </div>
+
+                <div class="top-dropdown-button">
+                    <a><button id="iphone" onmouseover="navContent('iphone-menu')" class="dropbtn">iphone</button></a>
+                </div>
+
+                <div class="top-dropdown-button">
+                    <a href="#"><button id="watch" onmouseover="navContent('watch-menu')"
+                            class="dropbtn">Watch</button></a>
+                </div>
+
+                <div class="top-dropdown-button">
+                    <a href="#"><button id="airpods" onmouseover="navContent('airpods-menu')"
+                            class="dropbtn">Airpods</button></a>
+                </div>
+
+                <div class="op-dropdown-button">
+                    <a href="#"><button id="tv" class="dropbtn" onmouseover="navContent('tv-menu')">TV &
+                            Home</button></a>
+                </div>
+
+                <div class="top-dropdown-button">
+                    <a href="#"><button id="entertainment" class="dropbtn"
+                            onmouseover="navContent('entertainment-menu')">Entertainment</button></a>
+                </div>
+
+                <div class="top-dropdown-button">
+                    <a href="#"><button id="accessories" class="dropbtn"
+                            onmouseover="navContent('accessories-menu')">Accessories</button></a>
+                </div>
+
+                <div class="top-dropdown-button">
+                    <a href="#"><button id="support" class="dropbtn"
+                            onmouseover="navContent('support-menu')">support</button></a>
+                </div>
+
+                <div class="search-hover">
+                    <a href="#">
+                         <span>
+     <svg xmlns="http://www.w3.org/2000/svg" width="15px" height="44px" viewBox="0 0 15 44">
+                            <path
+                                d="M14.298,27.202l-3.87-3.87c0.701-0.929,1.122-2.081,1.122-3.332c0-3.06-2.489-5.55-5.55-5.55c-3.06,0-5.55,2.49-5.55,5.55 c0,3.061,2.49,5.55,5.55,5.55c1.251,0,2.403-0.421,3.332-1.122l3.87,3.87c0.151,0.151,0.35,0.228,0.548,0.228 s0.396-0.076,0.548-0.228C14.601,27.995,14.601,27.505,14.298,27.202z M1.55,20c0-2.454,1.997-4.45,4.45-4.45 c2.454,0,4.45,1.997,4.45,4.45S8.454,24.45,6,24.45C3.546,24.45,1.55,22.454,1.55,20z">
+                            </path>
+                        </svg>
+                        </span>
+    </a>
+                </div>
+
+                <div class="bag-hover">
+                    <a href="#">
+                         <span>
+     <svg height="44" viewBox="0 0 14 44" width="14" xmlns="http://www.w3.org/2000/svg">
+        <path
+            d="m11.3535 16.0283h-1.0205a3.4229 3.4229 0 0 0 -3.333-2.9648 3.4229 3.4229 0 0 0 -3.333 2.9648h-1.02a2.1184 2.1184 0 0 0 -2.117 2.1162v7.7155a2.1186 2.1186 0 0 0 2.1162 2.1167h8.707a2.1186 2.1186 0 0 0 2.1168-2.1167v-7.7155a2.1184 2.1184 0 0 0 -2.1165-2.1162zm-4.3535-1.8652a2.3169 2.3169 0 0 1 2.2222 1.8652h-4.4444a2.3169 2.3169 0 0 1 2.2222-1.8652zm5.37 11.6969a1.0182 1.0182 0 0 1 -1.0166 1.0171h-8.7069a1.0182 1.0182 0 0 1 -1.0165-1.0171v-7.7155a1.0178 1.0178 0 0 1 1.0166-1.0166h8.707a1.0178 1.0178 0 0 1 1.0164 1.0166z">
+        </path>
+    </svg>
+    </span>
+    </a>
+    </div>
+
+    </div>
+    </div>
+
+    </div>
+    <div id="menu" class="content">
+
+        <div id="store-menu" class="sub-menu">
+
+            <div class="store-menu-one">
+                <h2>Shop</h2>
+                Shop the Latest
+                Mac
+                ipad
+                iphone
+                Apple watch
+                Accessories
+            </div>
+
+            <div class="store-menu-two">
+                <h2>Quick Links</h2>
+                Find a store
+                Order status
+                Ways to buy
+            </div>
+
+            <div class="store-menu-three">
+                <h2>Shop Special Stores</h2>
+                Education
+                Business
+            </div>
+
+        </div>
+
+        <div id="mac-menu" class="sub-menu">
+
+            <div class="mac-menu-one">
+                <h2>Explore All Mac</h2>
+                <li>MacBook Air</li>
+                <li>MacBook Pro</li>
+                <li>iMac</li>
+                <li>Mac mini</li>
+                <li>Mac Studio</li>
+                <li>Mac Pro</li>
+                <li>Displays</li>
+                <span>
+                    Compare Mac
+                    Mac Does That
+                </span>
+            </div>
+
+            <div class="mac-menu-two">
+                <h2>Shop Mac</h2>
+                <li>Shop Mac</li>
+                <li>Mac Accessories</li>
+                <li>Ways to Buy</li>
+            </div>
+
+            <div class="mac-menu-three">
+                <h2>More from Mac</h2>
+                <li>Mac Support</li>
+                <li>AppleCare+ for Mac</li>
+                <li>MacOS Sonoma</li>
+                <li>Apps by Apple</li>
+                <li>Continuity</li>
+                <li>iCloud+</li>
+                <li>Mac for Business</li>
+                <li>Education</li>
+            </div>
+
+        </div>
+
+        <div id="ipad-menu" class="sub-menu">
+
+            <div class="ipad-menu-one">
+                <h2>Explore iPad</h2>
+                <li>Explore All iPad</a></li>
+                <li><a href="">iPad Air</a></li>
+                <li><a href="">iPad Pro</a></li>
+                <li><a href="">iPad</a></li>
+                <li><a href="">iPad mini</a></li>
+                <li><a href="">Apple pencile</a></li>
+                <li><a href="">Keyboard</a></li>
+
+                <span class="ipad-light-color-one">
+                    <li><a href="">Compare iPad</a></li>
+                    <li><a href="">Why iPad</a></li>
+                </span>
+            </div>
+
+            <div class="iPad-menu-two">
+                <h2>Shop iPad</h2>
+                <li><a href="">Shop iPad</a></li>
+                <li><a href="">iPad Accessories</a></li>
+                <li><a href="">Ways to Buy</a></li>
+
+            </div>
+
+            <div class="ipad-menu-three">
+                <h2>More from iPad</h2>
+                <li><a href="">iPad Support</a></li>
+                <li><a href="">AppleCare+ for iPad</a></li>
+                <li><a href="">iPadOS 17</a></li>
+                <li><a href="">Apps by Apple</a></li>
+                <li><a href="">iCloud+</a></li>
+                <li><a href="">Education</a></li>
+            </div>
+
+        </div>
+
+        <div id="iphone-menu" class="sub-menu">
+
+            <div class="iphone-menu-one">
+                <h2>Explore iPhone</h2>
+                <ul>
+                <li><a href="">Explore All iPhone</a></li>
+                <li><a href="">iPhone 15 Pro</a></li>
+                <li><a href="">iPhone 15</a></li>
+                <li><a href="">iPhone 14</a></li>
+                <li><a href="">iPhone 13</a></li>
+                <li><a href="">iPhone SE</a></li>
+                <span>
+                    <li><a href="">Compare iPhone</a></li>
+                    <li><a href="">Switch from Android</a></li>
+                </span>
+            </ul>
+            </div>
+
+            <div class="iphone-menu-two">
+                <h2>Shop iPhone</h2>
+                <ul>
+                <li><a href="">Shop iPhone</a></li>
+                <li><a href="">iPhone Accessories</a></li>
+                <li><a href="">Apple Trade In</a></li>
+                <li><a href="">Ways to Buy</a></li>
+                </ul>
+            </div>
+
+            <div class="iphone-menu-three">
+                <h2>More from iPhone</h2>
+                <ul>
+                <li><a href="">iPhone Support</a></li>
+                <li><a href="">Apple care+ iPhone</a></li>
+                <li><a href="">iOS 17</a></li>
+                <li><a href="">Apps by Apple</a></li>
+                <li><a href="">iPhone Privacy</a></li>
+                <li><a href="">iCloud+</a></li>
+                <li><a href="">Wallet</a></li>
+                <li><a href="">Siri</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div id="watch-menu" class="sub-menu">
+            <div class="watch-menu-one">
+                <h2>Explore Watch</h2>
+                <ul>
+                <li><a href="">Explore All Apple Watch</a></li>
+                <li><a href="">Apple Watch Series 9</a></li>
+                <li><a href="">Apple Watch Ultra 2</a></li>
+                <li><a href="">Apple Watch SE</a></li>
+                <li><a href="">Apple Watch Nike</a></li>
+                <span>
+                    <li><a href="">Compare Watch</a></li>
+                    <li><a href="">Why Apple Watch</a></li>
+                </span>
+            </ul>
+            </div>
+
+            <div class="watch-menu-two">
+                <h2>Shop Watch</h2>
+                <ul>
+                <li><a href="">Shop Appple Watch</a></li>
+                <li><a href="">Apple Watch Straps</a></li>
+                <li><a href="">Apple Watch Accessories</a></li>
+                <li><a href="">Ways to Buy</a></li>
+                </ul>
+            </div>
+
+            <div class="watch-menu-three">
+                <h2>More from Watch</h2>
+                <ul>
+                <li><a href="">Apple Watch Support</a></li>
+                <li><a href="">AppleCare+</a></li>
+                <li><a href="">WatchOS 10</a></li>
+                <li><a href="">Apps by Apple</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div id="airpods-content" class="sub-menu">
+
+            <div class="airpods-menu-one">
+                <h2>Explore AirPods</h2>
+                <ul>
+                <li><a href="">Explore All Airpods</a></li>
+                <li><a href="">AirPods Pro 2nd generation</a></li>
+                <li><a href="">AirPods 2nd generation</a></li>
+                <li><a href="">AirPods 3rd generation</a></li>
+                <li><a href="">AirPods Max</a></li>
+                <span>
+                    <li><a href="">Compare AirPods</a></li>
+                </span>
+            </ul>
+            </div>
+
+            <div class="airpods-menu-two">
+                <h2>Shop AirPods</h2>
+                <ul>
+                <li><a href="">Shop AirPods</a></li>
+                <li><a href="">Shop Accessories</a></li>
+                </ul>
+            </div>
+
+            <div class="airpods-menu-three">
+                <h2>more from AirPods</h2>
+                <ul>
+                <li><a href="">AirPods</a></li>
+                <li><a href="">AppleCare+ for Headphones</a></li>
+                <li><a href="">Apple Music</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div id="tv-content" class="sub-menu">
+            <div class="tv-menu-one">
+                <h2>Explore TV & Home</h2>
+                <ul>
+                <li><a href="">Explore TV & Home</a></li>
+                <li><a href="">Apple TV 4k</a></li>
+                <li><a href="">HomePod</a></li>
+                <li><a href="">HomePod Mini</a></li>
+                <li><a href=""></a></li>
+                </ul>
+
+            </div>
+            <div class="tv-menu-two">
+                <h2>Shop TV & Home</h2>
+                <ul>
+                <li><a href="">Shop Apple TV 4k</a></li>
+                <li><a href="">Shop HomePod</a></li>
+                <li><a href="">Shop HomePod Mini</a></li>
+                </ul>
+            </div>
+            <div class="tv-menu-three">
+                <h2>More from TV & Home</h2>
+                <ul>
+                <li><a href="">Apple TV support</a></li>
+                <li><a href="">HomePod support</a></li>
+                <li><a href="">AppleCare+</a></li>
+                <li><a href="">Apple TV App</a></li>
+                <li><a href="">Apple TV +</a></li>
+                <li><a href="">Home app</a></li>
+                <li><a href="">Apple Music</a></li>
+                <li><a href="">Siri</a></li>
+                <li><a href="">Airplay</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="entertainment-menu" class="sub-menu">
+
+            <div class="entertainment-menu-one">
+                <h2>Explore Entertainment</h2>
+                <ul>
+                <li><a href="">Explore Entertainment</a></li>
+                <li><a href="">Apple One</a></li>
+                <li><a href="">Apple TV +</a></li>
+                <li><a href="">Apple Music</a></li>
+                <li><a href="">Apple Arcade</a></li>
+                <li><a href="">Apple PodCasts</a></li>
+                <li><a href="">Apple Books</a></li>
+                <li><a href="">App Store</a></li>
+                </ul>
+            </div>
+
+            <div class="entertainment-menu-two">
+                <h2>Support</h2>
+                <ul>
+                <li><a href="">Apple TV+ Support</a></li>
+                <li><a href="">Apple Music Support</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div id="accessories-content" class="sub-menu">
+
+            <div class="accessories-menu-one">
+                <h2>Shop Accessories</h2>
+            <ul>
+                <li><a href="">Shop All Accessories</a></li>
+                <li><a href="">Mac</a></li>
+                <li><a href="">iPad</a></li>
+                <li><a href="">iPhone</a></li>
+                <li><a href="">Apple Watch</a></li>
+                <li><a href="">AirPods</a></li>
+                <li><a href="">TV & Home</a></li>
+        </ul>
+            </div>
+
+            <div class="accessories-menu-two">
+                <h2>Explore Accessories</h2>
+                <ul>
+                <li><a href="">Made by Apple</a></li>
+                <li><a href="">AirTag</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div id="support-menu" class="sub-menu">
+
+            <div class="support-menu-one">
+                <h2>Explore Support</h2>
+                <ul>
+                <li><a href="">iPhone</a></li>
+                <li><a href="">Mac</a></li>
+                <li><a href="">iPad</a></li>
+                <li><a href="">Watch</a></li>
+                <li><a href="">AirPods</a></li>
+                <li><a href="">Music</a></li>
+                <li><a href="">TV</a></li>
+                <span>
+                    <li><a href="">Explore Support</a></li>
+                </span>
+            </ul>
+            </div>
+
+            <div>
+                <h2>Get Help</h2>
+                <ul>
+                <li><a href="">Community</a></li>
+                <li><a href="">Check Coverage</a></li>
+                <li><a href="">Repair</a></li>
+                <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>Helpful Topics</h2>
+                <ul>
+                <li><a href="">Get AppleCare+</a></li>
+                <li><a href="">Apple ID & Password</a></li>
+                <li><a href="">Billing & Subscriptions</a></li>
+                <li><a href="">Find My</a></li>
+                <li><a href="">Accessibility</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+    <div class="main">
+        <div id="noticeid" class="notice-board">
+            <div class="written-notes">
+                <span>
+                    Save up to ₹8000.00 instantly on eligible products with HDFC Bank Credit Cards.
+                    <sup class="footnote">
+                        <a href="#footnote-1">*
+                    </sup>
+                    Plus No Cost EMI from most leading banks.
+                    <sup>
+                        <a href="footnote-2">‡
+                    </sup>
+                    <a href="">shop now
+                </span>
+            </div>
+
+        </div>
+    </div>
+
+    -->
+
 
     <script src="script.js"></script>
 </body>
+
 </html>

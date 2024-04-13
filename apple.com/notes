@@ -1,0 +1,109 @@
+<div data-analytics-element-engagement="globalnav hover - store" class="globalnav-item globalnav-item-store globalnav-item-menu globalnav-item-submenu" 
+style="--r-globalnav-flyout-item-number: 0;">
+<ul class="globalnav-submenu-trigger-group">
+<li class="globalnav-submenu-trigger-item">
+<a href="/in/shop/goto/store" data-globalnav-item-name="store" data-topnav-flyout-trigger-compact="" data-analytics-title="store" data-analytics-element-engagement="hover - store" aria-label="Store" class="globalnav-link globalnav-submenu-trigger-link globalnav-link-store">
+<span class="globalnav-link-text-container">
+<span class="globalnav-image-regular globalnav-link-image">
+<svg height="44" viewBox="0 0 30 44" width="30" xmlns="http://www.w3.org/2000/svg">
+<path d="m26.5679 20.4629c1.002 0 1.67.738 1.693 1.857h-3.48c.076-1.119.779-1.857 1.787-1.857zm2.754 2.672v-.387c0-1.963-1.037-3.176-2.742-3.176-1.735
+ 0-2.848 1.289-2.848 3.276 0 1.998 1.096 3.263 2.848 3.263 1.383 0 2.367-.668 2.66-1.746h-1.008c-.264.557-.814.856-1.629.856-1.072 
+ 0-1.769-.791-1.822-2.039v-.047zm-9.547-3.451h.96v.937h.094c.188-.615.914-1.049 1.752-1.049.164 0 .375.012.504.03v1.007c-.082-.023-.445-.058-.644-.058-.961
+  0-1.659 1.098-1.659 1.535v3.914h-1.007zm-4.27 5.519c-1.195 0-1.869-.867-1.869-2.361 0-1.5.674-2.361 1.869-2.361 1.196 0 1.87.861
+   1.87 2.361 0 1.494-.674 2.361-1.87 2.361zm0-5.631c-1.798 0-2.912 1.237-2.912 3.27 0 2.027 1.114 3.269 2.912 3.269 1.799 0 
+   2.913-1.242 2.913-3.269 0-2.033-1.114-3.27-2.913-3.27zm-5.478-1.475v1.635h1.407v.843h-1.407v3.575c0 .744.282 1.06.938 1.06.182 
+   0 .281-.006.469-.023v.849c-.199.035-.393.059-.592.059-1.301 0-1.822-.481-1.822-1.688v-3.832h-1.02v-.843h1.02v-1.635zm-8.103
+    5.694c.129.885.973 1.447 2.174 1.447 1.137 0 1.975-.615 1.975-1.453 0-.72-.527-1.177-1.693-1.47l-1.084-.282c-1.53-.386-2.192-1.078-2.192-2.279
+     0-1.436 1.201-2.408 2.988-2.408 1.635 0 2.854.972 2.942 2.338h-1.061c-.146-.867-.861-1.383-1.916-1.383-1.125 0-1.869.562-1.869
+      1.418 0 .662.463 1.043 1.629 1.342l.885.234c1.752.439 2.455 1.119 2.455 2.361 0 1.553-1.225 2.543-3.158 2.543-1.793 0-3.03-.949-3.141-2.408z">
+      </path></svg>
+      </span>
+      <span class="globalnav-link-text">Store</span>
+      </span>
+      <span class="globalnav-link-chevron">
+      <svg height="48" viewBox="0 0 9 48" width="9" xmlns="http://www.w3.org/2000/svg">
+      <path d="m8.1155 30.358a.6.6 0 1 1 -.831.8653l-7-6.7242a.6.6 0 0 1 -.0045-.8613l7-6.8569a.6.6 0 1 1 .84.8574l-6.5582 6.4238z">
+      </path>
+      </svg>
+      </span>
+      </a>
+      </li>
+      <li class="globalnav-submenu-trigger-item">
+      <button id="globalnav-menubutton-link-store" class="globalnav-submenu-trigger-button" aria-expanded="false" aria-controls="globalnav-submenu-link-store" aria-label="Store menu" data-topnav-flyout-trigger-regular="true">
+      <span class="globalnav-image-regular globalnav-submenu-button-icon">
+      <svg height="10" viewBox="0 0 10 10" width="10" xmlns="http://www.w3.org/2000/svg">
+      <path d="m4.6725 6.635-2.655-2.667a.445.445 0 0 1 -.123-.304.4331.4331 0 0 1 .427-.439h.006a.447.447 0 0 1 .316.135l2.357 2.365 2.356-2.365a.458.458 0 0 1 .316-.135.433.433 0 0 1 .433.433v.006a.4189.4189 0 0 1 -.123.3l-2.655
+       2.671a.4451.4451 0 0 1 -.327.14.464.464 0 0 1 -.328-.14z"></path></svg>
+       </span>
+       <span class="globalnav-image-compact globalnav-submenu-button-icon">
+       <svg height="48" viewBox="0 0 9 48" width="9" xmlns="http://www.w3.org/2000/svg">
+       <path d="m7.4382 24.0621-6.5581-6.4238c-.2368-.2319-.2407-.6118-.0088-.8486.2324-.2373.6123-.2407.8486-.0088l7 
+       6.8569c.1157.1138.1807.2695.1802.4316-.001.1621-.0674.3174-.1846.4297l-7 6.7242c-.1162.1118-.2661.1675-.4155.1675-.1577
+        0-.3149-.062-.4326-.1846-.2295-.2388-.2222-.6187.0171-.8481l6.5537-6.2959z"></path></svg>
+        </span>
+        </button>
+        </li>
+        </ul>
+        <div id="globalnav-submenu-link-store" class="globalnav-flyout globalnav-submenu" aria-labelledby="globalnav-menubutton-link-store" 
+        style="--r-globalnav-flyout-item-total: 0; --r-globalnav-flyout-group-number: 0; --r-globalnav-flyout-height: 414px; 
+        --r-globalnav-flyout-rate: 240ms; --r-globalnav-scrollbar-width: 0px;">
+        <div class="globalnav-flyout-scroll-container">
+        <div class="globalnav-flyout-content globalnav-submenu-content" style="--r-globalnav-flyout-elevated-group-count: 1; --r-globalnav-flyout-group-total: 2; --r-globalnav-flyout-item-total: 7;">
+        
+        <div class="globalnav-submenu-group globalnav-submenu-group-elevated" data-analytics-region="explore shop" style="--r-globalnav-flyout-group-number: 0;">
+        <h2 class="globalnav-submenu-header" id="8d541136" style="--r-globalnav-flyout-item-number: 1;">Shop
+        </h2>
+        <ul class="globalnav-submenu-list" aria-labelledby="8d541136">
+        <li class="globalnav-submenu-list-item-elevated" style="--r-globalnav-flyout-item-number: 2;">
+        <a href="/in/shop/goto/store" class="globalnav-submenu-link" data-analytics-title="shop the latest" aria-label="Shop the latest Apple products">
+        Shop the Latest</a>
+        </li>
+        <li class="globalnav-submenu-list-item-elevated" style="--r-globalnav-flyout-item-number: 3;">
+        <a href="/in/shop/goto/buy_mac" class="globalnav-submenu-link" data-analytics-title="mac">Mac</a>
+        </li>
+        <li class="globalnav-submenu-list-item-elevated" style="--r-globalnav-flyout-item-number: 4;">
+        <a href="/in/shop/goto/buy_ipad" class="globalnav-submenu-link" data-analytics-title="ipad">iPad</a>
+        </li>
+        <li class="globalnav-submenu-list-item-elevated" style="--r-globalnav-flyout-item-number: 5;">
+        <a href="/in/shop/goto/buy_iphone" class="globalnav-submenu-link" data-analytics-title="iphone">iPhone</a>
+        </li>
+        <li class="globalnav-submenu-list-item-elevated" style="--r-globalnav-flyout-item-number: 6;">
+        <a href="/in/shop/goto/buy_watch" class="globalnav-submenu-link" data-analytics-title="apple watch">Apple Watch</a>
+        </li>
+        <li class="globalnav-submenu-list-item-elevated" style="--r-globalnav-flyout-item-number: 7;">
+        <a href="/in/shop/goto/buy_accessories" class="globalnav-submenu-link" data-analytics-title="accessories">Accessories</a>
+        </li>
+        </ul>
+        </div>
+
+        <div class="globalnav-submenu-group " data-analytics-region="quick links - store" style="--r-globalnav-flyout-group-number: 1;">
+        <h2 class="globalnav-submenu-header" id="61bfccb1" style="--r-globalnav-flyout-item-number: 1;">Quick Links</h2>
+        <ul class="globalnav-submenu-list" aria-labelledby="61bfccb1">
+        <li class="globalnav-submenu-list-item" style="--r-globalnav-flyout-item-number: 2;">
+        <a href="/in/retail/" class="globalnav-submenu-link" data-analytics-title="find a store">Find a Store</a>
+        </li>
+        <li class="globalnav-submenu-list-item" style="--r-globalnav-flyout-item-number: 3;">
+        <a href="/in/shop/goto/order/list" class="globalnav-submenu-link" data-analytics-title="order status">Order Status</a>
+        </li>
+        <li class="globalnav-submenu-list-item" style="--r-globalnav-flyout-item-number: 4;">
+        <a href="/in/shop/goto/ways_to_buy" class="globalnav-submenu-link" data-analytics-title="financing">Ways to Buy</a>
+        </li>
+        </ul>
+        </div>
+
+        <div class="globalnav-submenu-group " data-analytics-region="shop special stores" style="--r-globalnav-flyout-group-number: 2;">
+        <h2 class="globalnav-submenu-header" id="2840c719" style="--r-globalnav-flyout-item-number: 1;">Shop Special Stores</h2>
+        <ul class="globalnav-submenu-list" aria-labelledby="2840c719">
+        <li class="globalnav-submenu-list-item" style="--r-globalnav-flyout-item-number: 2;">
+        <a href="/in/shop/goto/educationrouting" class="globalnav-submenu-link" data-analytics-title="education">Education</a>
+        </li>
+        <li class="globalnav-submenu-list-item" style="--r-globalnav-flyout-item-number: 3;">
+        <a href="/in/retail/business/" class="globalnav-submenu-link" data-analytics-title="business">Business</a>
+        </li>
+        </ul>
+        </div>
+
+        </div>
+        </div>
+        </div>
+</div>

@@ -1,0 +1,132 @@
+*{
+    border: 0px solid;
+    border-color: black;
+}
+
+.body {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.header {
+    width: 100%;
+    height: 81px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1000;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+}
+.menu ul li {
+    padding-left: 60px;
+}
+
+/* .logo-image img {
+    width: 30px;
+    height: 30px;
+} */
+.logo-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.create-logo {
+    margin-left: 25px;
+}
+
+.create-logo .v-one {
+    font-size: 49px;
+    font-weight: 600;
+    color: green;
+}
+
+.create-logo .v-two {
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: -13px;
+    color: greenyellow;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* position: relative;
+    z-index: 1000; */
+}
+
+.max-width-hero {
+    width: 100%;
+    margin-top: 30px;
+    /* margin-bottom: 30px; */
+    margin-right: 80px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 100px;
+}
+
+.bold-text {
+    font-size: 33px;
+    font-weight: 600;
+    font-family: auto;
+    margin-bottom: 15px;
+}
+
+.small-text {
+    display: flex;
+    flex-direction: column;
+    color: #676262;
+}
+
+.image-hero {
+    margin-top: 50px;
+    padding-right: -33px;
+    /* margin-left: 474px; */
+    z-index: 1000;
+}
+
+.purple-circle {
+    width: 800px;
+    height: 800px;
+    color: rgb(192, 129, 244);
+    background-color: rgb(192, 129, 244);
+    border-radius: 50%;
+    /* margin-top: -187px;
+    margin-right: -10px; */
+    object-fit: cover;
+    top: -250px;
+    position: absolute;
+    right: -200px;
+    bottom: auto;
+    left: auto;
+}
+
+.orange-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: orange;
+    color: orange;
+    position: absolute;
+    right: 600px;
+    /* bottom: 131px; */
+    top: 250px;
+}

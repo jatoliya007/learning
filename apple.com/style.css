@@ -1,0 +1,262 @@
+body {
+    margin: 0;
+}
+
+.header-list ul li {
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+.header-content {
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1024px;
+    padding-right: 31px;
+    padding-left: 31px;
+    padding-top: 0;
+    padding-bottom: 0;
+    /* display: block; */
+}
+
+.header-list{
+    cursor: default;
+    display: flex;
+    justify-content: space-between;
+    height: 44px;
+    width: auto;
+    margin: 0 -8px;
+    user-select: none;
+    list-style: none;
+}
+
+.anchore-on-apple {
+    
+}
+
+.apple-logo {
+    display: block;
+    height: 44px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* margin-right: 4px;
+    margin-left: 4px; */
+}
+
+.apple-image {
+    display: flex;
+}
+
+.nav-all-menu-list {
+    display: contents;
+    box-sizing: border-box;
+    height: 44px;
+}
+
+.nav-buttons {
+    /* acc to apple -display;inherit */
+    display: inherit;
+    justify-content: center;
+    /* margin-top: 0;
+    margin-left: -15px;
+    margin-right: 20px; */
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    line-height: 1;
+    height: 44px;
+    align-items: center;
+
+}
+
+.nav-hover {
+    box-sizing: border-box;
+    height: 44px;
+}
+
+.ul-on-top-navbutton {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.nav-hover ul li{
+    list-style: none;
+}
+
+.anchor-top-nav-button {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    line-height: 1;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    height: 44px;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* color: rgb(226, 223, 223); */
+    position: relative;
+    z-index: 1;
+    height: 44px;
+
+}
+
+.glabalnav-floyout {
+    --r-globalnav-flyout-item-total: 0;
+    --r-globalnav-flyout-group-number: 0;
+    --r-globalnav-flyout-height: 414px;
+    --r-globalnav-flyout-rate: 240ms;
+    --r-globalnav-scrollbar-width: 0px;
+}
+
+.globalnav-submenu {
+    height: 44px;
+    max-height: calc(100vh - var(--r-globalnav-flyout-spacing));
+    overflow: hidden;
+    visibility: hidden;
+    margin-top: -44px;
+    background: var(--globalnav-background);
+}
+
+.globalnav-flyout-scroll-container{
+    margin-top: 44px;
+    max-height: calc(100% - 44px);
+    overflow-y: hidden;
+}
+
+.sub-menu {
+    display: none;
+    background-color: black;
+}
+
+.sub-menu a {
+    display: block;
+    
+}
+
+.sub-menu h2 {
+    color: rgb(191, 189, 189);
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    line-height: 1;
+}
+
+.sub-menu ul li a {
+    text-decoration: none;
+    color: rgb(251, 246, 246);
+}
+
+.menu-one {
+    color: rgb(251, 246, 246);
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: .009em;
+    line-height: 1.1666666667;
+    /* margin-inline-start: -11px; */
+    /* margin-inline-end: -11px; */
+}
+
+.sub-menu ul li {
+    /* color: white; */
+}
+
+.search-menu {
+    padding-left: 30px;
+}
+
+.apple-bag-menu {
+    padding-left: 30px;
+}
+/*
+.apple-logo {
+    align-items: center;
+    padding-left: 200px;
+    margin-right: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+
+}
+
+
+.nav-button {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 15px;
+    padding-right: 200px;
+
+}
+
+.search-hover {
+    align-items: center;
+    display: flex;
+}
+
+.bag-hover {
+    align-items: center;
+    display: flex;
+}
+
+.dropbtn {
+    cursor: pointer;
+
+}
+
+.sub-menu h2 {
+    color: rgb(191, 189, 189);
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    line-height: 1;
+    /* width: 100vh; */
+    /* padding-right: 200px; */
+
+/* .sub-menu {
+
+    width: 1000px;
+    list-style: none;
+}
+
+/* .content {
+    cursor: pointer;
+    justify-content: space-between;
+    height: 400px;
+    padding-left: 200px;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+
+}
+
+.content a {
+    display: block;
+} */
+
+
+
+
+/* .notice-board {
+    margin-left: 241px;
+    padding: 10px; */
+    /* overflow: hidden; */
+
+/* .main .notice-board sup a {
+    color: black;
+    list-style: none;
+} */
+
